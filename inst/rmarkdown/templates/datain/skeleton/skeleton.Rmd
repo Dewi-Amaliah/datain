@@ -1,0 +1,42 @@
+---
+title: "Judul Analisis"
+author: "Penulis 1, Penulis 2, dst"
+date: "Bulan 2022"
+output:
+  pdf_document:
+    template: datain.tex
+---
+
+# Section 1
+
+Masukkan text dan segala gambar di sini. Anda juga bisa membuat poin-poin:
+
+1. a
+2. b
+3. c
+
+Menuliskan referensi ke gambar dapat dilakukan dengan \ref{fig:fig1} dimana fug1 adalah label dari r code chunk (dalam hal ini fig1). 
+
+Untuk footnote dapat dilakukab dengan \footnote{footnote}.
+
+Untuk insert gambar dapat dilakukan dengan menggunakan kode di bawah ini:
+
+```{r fig1, fig.cap= "Bla bla"}
+knitr::include_graphics("header-pict.png")
+```
+
+
+Paragraph selanjutnya
+
+# Section 2
+
+\textbf{text} untuk text bold.
+
+\textit{text} untuk text italic.
+
+# References
+
+
+
+
+
