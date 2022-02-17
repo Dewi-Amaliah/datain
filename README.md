@@ -1,4 +1,4 @@
-This repository contains the R markdown template for monthly bulletin of Thematic  Big Data Analysis published by Statistical Model Development Division in Statistics Indonesia. This is built by forking the and adapted [`example-rmd-templates` by Dr. Michael Harper](https://github.com/dr-harper/example-rmd-templates) and also adpated from [`monash::memo` template by Rob J. Hyndman](https://github.com/numbats/monash).
+This repository contains the R markdown template for monthly bulletin of Thematic  Big Data Analysis published by Statistical Model Development Division in Statistics Indonesia. This is built by forking the repo of [`example-rmd-templates` by Dr. Michael Harper](https://github.com/dr-harper/example-rmd-templates) and also adpated from [`monash::memo` template by Rob J. Hyndman](https://github.com/numbats/monash).
 
 **Prerequsuite: Familiarity with R and Rmarkdown**
 
