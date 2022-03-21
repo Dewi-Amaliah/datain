@@ -7,6 +7,12 @@ output:
     template: datain.tex
 ---
 
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
 # Section 1
 
 Masukkan text dan segala gambar di sini. Anda juga bisa membuat poin-poin:
@@ -17,7 +23,7 @@ Masukkan text dan segala gambar di sini. Anda juga bisa membuat poin-poin:
 
 Menuliskan referensi ke gambar dapat dilakukan dengan \ref{fig:fig1} dimana fug1 adalah label dari r code chunk (dalam hal ini fig1). 
 
-Untuk footnote dapat dilakukab dengan \footnote{footnote}.
+Untuk footnote dapat dilakukan dengan \footnote{footnote}.
 
 Untuk insert gambar dapat dilakukan dengan menggunakan kode di bawah ini:
 
@@ -28,6 +34,7 @@ knitr::include_graphics("header-pict.png")
 
 Paragraph selanjutnya
 
+Untuk membuat gambar side-by-side:
 
 \begin{figure}
     \centering
@@ -42,6 +49,9 @@ Paragraph selanjutnya
 \textbf{text} untuk text bold.
 
 \textit{text} untuk text italic.
+
+# Section 3
+
 
 # References
 
