@@ -13,6 +13,34 @@ knitr::opts_chunk$set(echo = FALSE,
                       message = FALSE)
 ```
 
+
+```{r}
+st_theme <- function() {
+  theme(
+    # add border 1)
+    panel.border = element_rect(colour = "#59A47F", fill = NA, linetype = 2),
+    # color background 2)
+    panel.background = element_rect(fill = "#C0E4D2"),
+    # modify grid 3)
+    panel.grid.major.x = element_line(colour = "#138D75", linetype = 3, size = 0.5),
+    panel.grid.minor.x = element_blank(),
+    panel.grid.major.y =  element_line(colour = "#138D75", linetype = 3, size = 0.5),
+    panel.grid.minor.y = element_blank(),
+    # modify text, axis and colour 4) and 5)
+    axis.text = element_text(colour = "#138D75"),
+    axis.title = element_text(colour = "#138D75"),
+    axis.ticks = element_line(colour = "#138D75"),
+    # legend at the bottom 6)
+    legend.position = "bottom"
+  )
+}
+```
+
+
+
+
+
+
 # Section 1
 
 Masukkan text dan segala gambar di sini. Anda juga bisa membuat poin-poin:
@@ -21,7 +49,7 @@ Masukkan text dan segala gambar di sini. Anda juga bisa membuat poin-poin:
 2. b
 3. c
 
-Menuliskan referensi ke gambar dapat dilakukan dengan \ref{fig:fig1} dimana fug1 adalah label dari r code chunk (dalam hal ini fig1). 
+Menuliskan referensi ke gambar dapat dilakukan dengan \ref{fig:fig1} dimana f1g1 adalah label dari r code chunk (dalam hal ini fig1). 
 
 Untuk footnote dapat dilakukan dengan \footnote{footnote}.
 
